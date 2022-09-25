@@ -9,17 +9,17 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Interests
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
-    icon_pack: fab
-    name: R
+  - description: Played at U-15 club tournaments
+    icon: football1
+    icon_pack: custom
+    name: Football
   - description: 100%
     icon: chart-line
     icon_pack: fas
