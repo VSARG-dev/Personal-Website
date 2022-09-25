@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Work Experience
 subtitle:
 
 # Date format for experience
@@ -22,28 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: ML Intern
+    company: North Eastern Space Applications Centre
+    company_url: 'https://nesac.gov.in'
+    company_logo: isro-nesac
+    location: India
+    date_start: '2021-05-06'
+    date_end: '2021-07-28'
     description: |2-
-        Responsibilities include:
+        Worked on development of DL pipeline for 3D semantic segmentation task. Used web based Triton Inference Server for visualization of results.
         
         * Analysing
         * Modelling
         * Deploying
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
 
 design:
   columns: '2'
