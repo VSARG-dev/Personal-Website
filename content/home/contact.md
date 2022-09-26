@@ -12,45 +12,53 @@ title: Contact
 subtitle:
 
 content:
-  # Automatically link email and phone or display as text?
-  autolink: true
+  # # Automatically link email and phone or display as text?
+  # autolink: true
 
-  # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+  # # Email form provider
+  # form:
+  #   provider: netlify
+  #   formspree:
+  #     id:
+  #   netlify:
+  #     # Enable CAPTCHA challenge to reduce spam?
+  #     captcha: false
 
   # Contact details (edit or remove options as required)
-  email: test@example.org
-  phone: 888 888 88 88
-  address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
-  coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-  office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
+  # email: test@example.org
+  # phone: 888 888 88 88
+  # address:
+  #   street: 450 Serra Mall
+  #   city: Stanford
+  #   region: CA
+  #   postcode: '94305'
+  #   country: United States
+  #   country_code: US
+  # coordinates:
+  #   latitude: '37.4275'
+  #   longitude: '-122.1697'
+  # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  # office_hours:
+  #   - 'Monday 10:00 to 13:00'
+  #   - 'Wednesday 09:00 to 10:00'
+  # appointment_url: 'https://calendly.com'
   contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
+    - icon: envelope
       icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+      name: f20191354@hyderabad.bits-pilani.ac.in (University)
+      link: 'mailto:f20191354@hyderabad.bits-pilani.ac.in'
+    - icon: envelope
+      icon_pack: fas
+      name: abhinavrahul1011@gmail.com (Personal)
+      link: 'mailto:abhinavrahul1011@gmail.com'
+    - icon: phone
+      icon_pack: fas
+      name: +91 7043062888
+      link: 'tel: +91 7043062888'
+    - icon: facebook
+      icon_pack: fab
+      name: Facebook
+      link: 'https://www.facebook.com/abhinav.rahul.5/'
 
 design:
   columns: '2'
