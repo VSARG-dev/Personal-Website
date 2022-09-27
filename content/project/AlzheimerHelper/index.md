@@ -1,9 +1,12 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Alzheimer Helper
+summary: An AI chatbot to help people suffering from Alzheimer's.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Chatbot
+  - Flask
+  - AIML
+  - SQLite
+date: '2020-11-29'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -13,10 +16,10 @@ image:
   focal_point: Smart
 
 links:
-  - icon: twitter
+  - icon: github
     icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+    name: Code
+    url: https://github.com/VSARG-dev/AlzheimerHelper
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,15 +30,13 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Alzheimer's disease has become more common nowadays, affecting atleast 10% of the population above the age of 65. Families of patients suffering from Alzheimer's have to undergo a lot of stress, having to constantly remind them of even the most essential things such as their name. This project aims to ease that burden, atleast a little, by allowing Alzheimer's patients to converse with a chatbot and ask questions about themselves to remind themselves of the things they have forgotten. \
+\
+The initial page allows the family members to register and add the personal details of the patient such as their name, address, phone no., dad name, mom name, emrgency contact no., guardian name and age. A POST request is sent to the kernel which sets all the values in AIML variables. All the data is then stored in a SQLite database. \
+\
+Once registered, along with a username and password, users can log in and start conversing with the AI chatbot. The patient can ask simple questions about themselves such as "What is my name?". This generates a GET request and the required details are extracted from the SQLite database following which a response is displayed from a pool of responses that have similar meaning. Finally the chats are stored in the SqLite database as well for future reference. \
+\
+Check out the code on Github for more details!

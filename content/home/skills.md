@@ -20,14 +20,14 @@ feature:
     icon: football1
     icon_pack: custom
     name: Football
-  - description: 100%
-    icon: chart-line
-    icon_pack: fas
-    name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+  - description: Stories, Novels, Inspirational, and Business related books
+    icon: reading
+    icon_pack: custom
+    name: Reading
+  - description: Mainly 3x3
+    icon: rubiks
+    icon_pack: custom
+    name: Speedcubing
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
