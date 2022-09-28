@@ -39,3 +39,13 @@ url_video: ''
 slides: 
 ---
 
+As part of the Object Oriented Programming course offered by our college, we were given the task of implementing a Mutual Book Exchange Portal keeping the OOP principles in mind. The purpose of this portal was to enable the registered users to exchange the books that they have with them, free of cost, allowing for temporary use and return of books. \
+\
+Please check out the project Overview to get details about all the classes that were implemented, their roles, and also a site map of the final website that was hosted. Also check out our code on Github for further technical details! \
+\
+Website link: https://bookexchangeportal.herokuapp.com/web/login \
+Admin Login Details:- \
+Username: admin@gmail.com \
+Pwd: password \
+\
+**NOTE:** Website may no longer work as Heroku has announced that they will eliminate all of their free services.
