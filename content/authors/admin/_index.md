@@ -14,7 +14,7 @@ organizations:
     url: https://www.bits-pilani.ac.in/hyderabad/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include natural language processing, deep learning, artificial intelligence and robotics.
 
 # Interests to show in About widget
 interests:
