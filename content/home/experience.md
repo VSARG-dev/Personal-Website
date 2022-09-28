@@ -30,8 +30,7 @@ experience:
     date_start: '2021-05-06'
     date_end: '2021-07-28'
     description: |2-
-        Worked on development of DL pipeline for 3D semantic segmentation task performed on drone and satellite generated images. Pipeline deployed as an API using an Inference server to use this service in an application or web app for visualization of results. The project involved:
-      
+        Worked on development of DL pipeline for 3D semantic segmentation task performed on drone and satellite generated images. Pipeline was deployed as an API using an Inference server to use this service in an application or web app for visualization of results. The project involved:
         
         * Choosing an Inference Server that could handle multiple frameworks, was scalable, could run multiple models simultaneously, had readily available documentation and was easy to work with while being fully open source. The ones tested were MLflow, BentoML, Triton and Cortex. Triton Inference Server turned out to be the most optimal for our requirements.
         * Using Tensorflow and Nvidia CUDA to work with Deeplab for object detection and YOLO for semantic segmentation. Used Nvidia Container Toolkit to utilize Triton GPU.

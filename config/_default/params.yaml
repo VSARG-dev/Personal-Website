@@ -6,10 +6,11 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  theme_day: strawberry
+  theme_night: dark
+  font: rose
   font_size: L
+
 
 # SEO
 
@@ -42,13 +43,13 @@ header:
 # Site footer
 
 footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+  # copyright:
+  #   notice: '© {year} Me. This work is licensed under {license}'
+  #   license:
+  #     enable: true
+  #     allow_derivatives: false
+  #     share_alike: true
+  #     allow_commercial: false
 
 # Localization
 

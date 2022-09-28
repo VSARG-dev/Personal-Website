@@ -6,8 +6,6 @@ tags:
   - SpringBoot
   - MySQL
   - Heroku
-  - JSP
-  - Bootstrap
 date: '2022-04-27'
 
 # Optional external URL for project (replaces project detail page).
