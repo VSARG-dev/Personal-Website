@@ -37,6 +37,6 @@ Alzheimer's disease has become more common nowadays, affecting atleast 10% of th
 \
 The initial page allows the family members to register and add the personal details of the patient such as their name, address, phone no., dad name, mom name, emrgency contact no., guardian name and age. A POST request is sent to the kernel which sets all the values in AIML variables. All the data is then stored in a SQLite database. \
 \
-Once registered, along with a username and password, users can log in and start conversing with the AI chatbot. The patient can ask simple questions about themselves such as "What is my name?". This generates a GET request and the required details are extracted from the SQLite database following which a response is displayed from a pool of responses that have similar meaning. Finally the chats are stored in the SqLite database as well for future reference. \
+Once registered, along with a username and password, users can log in and start conversing with the AI chatbot. The patient can ask simple questions about themselves such as "What is my name?". This generates a GET request and the required details are extracted from the SQLite database following which a response is displayed from a pool of responses that have similar meaning. Finally the chats are stored in the SQLite database as well for future reference. \
 \
 Check out the code on Github for more details!
