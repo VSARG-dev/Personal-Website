@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
-<path style="fill:#172921; stroke:none;" d="M0 0L0 48L48 48L48 0L0 0z"/>
+<!-- <path style="fill:#172921; stroke:none;" d="M0 0L0 48L48 48L48 0L0 0z"/> -->
 <path style="fill:#168fe6; stroke:none;" d="M7 7L7 17L17 17L17 7L7 7z"/>
 <path style="fill:#dfe2e4; stroke:none;" d="M19 7L19 17L29 17L29 7L19 7z"/>
 <path style="fill:#fdc811; stroke:none;" d="M31 7L31 17L41 17L41 7L31 7z"/>
