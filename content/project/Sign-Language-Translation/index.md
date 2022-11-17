@@ -53,4 +53,4 @@ To resolve this issue, we chose the original inception-v3 as in our previous exp
 \
 We tried different configurations of hyperparameters and ran training for ~1.5 hours per config. The best configuration gave us a test BLEU score of `12.75`. While not the best, it isn't a very representative metric as the labelled examples had only one translation per video, and BLEU's representativity increases with more number of semantically equivalent labels. There's also reason to believe that with a bigger transformer model and more data, the results would be much better, as is always the case with transformers. For more technical details, check out our report! \
 \
-Credits: My teammate [Pranav Balaji](https://github.com/greenfish8090)
+<!-- Credits: My teammate [Pranav Balaji](https://github.com/greenfish8090) -->
