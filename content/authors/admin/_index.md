@@ -64,12 +64,12 @@ highlight_name: true
 
 Hi! I am V. S. Abhinav Rahul Gandrakota, a final year Electronics & Instrumentation undergraduate at BITS Pilani, Hyderabad. I am mainly interested in the field of data science, especially Natural Language Processing and Artificial Intelligence. \
 \
-I am currently working with [Prof Ankur Bhattacharjee](https://universe.bits-pilani.ac.in/Hyderabad/bhattacharjee/Profile) on using AI & Deep Learning based algorithms for
-development and optimization of an efficient battery thermal management system. \
+Previously, I worked with [Dr. Ankur Bhattacharjee](https://universe.bits-pilani.ac.in/Hyderabad/bhattacharjee/Profile) on using Deep Learning based algorithms for
+development and optimization of an efficient VRFB thermal management system. I am currently working with [Dr. Aruna Malapati](https://universe.bits-pilani.ac.in/hyderabad/arunamalapati/Profile) on getting pre-trained embeddings for code-mixed data. \
 \
 I got my first opportunity to work in the Deep Learning domain as part of my summer internship at [North Eastern Space Application Centre](https://nesac.gov.in), which involved 3D Semantic Segmentation task performed on satellite generated images. After that, I knew that I wanted to pursue my professional career in this domain. \
 \
-I've worked on many assignments and projects as part of the courses done under the data science minor. Some of them include Sign Language Translation and Alzheimer Helper. \
+I've worked on many assignments and projects as part of the courses done under the data science minor. Some of them include Sign Language Translation, Audio Based Language Identiifcation and Alzheimer Helper. \
 \
 I've also worked on Robotics projects in the past, first in 10th grade, and then in my first year of college. Although I don't enjoy the theoretical aspect of electronics, I have always found working with actual hardware a lot of fun. I hope to get the opportunity to incorporate my knowledge of AI/ML along with Robotics in the future.\
 \
